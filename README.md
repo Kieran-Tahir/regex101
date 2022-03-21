@@ -32,10 +32,10 @@ Here are some useful resources to help you out 😀:
 
 ## Part 2
 
-Now it is time for you to apply your regex skills to your personal project!
+Now it is time for you to apply your regex skills to your personal project by creating a 'user record'!
 
-- Create an input field where a user can enter some text.
-- When the user submits their text, I want to see that text displayed below the input field.
+- Create an input field where a user can enter their email address.
+- When the user submits their email address, I want to see that address displayed below the input field.
 - Using regexes, I want that text to display ONLY if it is a valid gmail address with the format "example@gmail.com".
 - Now I want to see 2 more input fields, one for name and one for age.
 - Using regexes, I want only valid names and ages to be displayed below.
