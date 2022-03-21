@@ -7,7 +7,7 @@ const ex5 = 'You can contact me on Twitter @codebubb or james@juniordevelopercen
 // Exercise 01
 // Using a regex pattern, get the 3 letter words in the ex1 string.
 
-const reg1 = ex1
+const reg1 = ex1.match(/\b(\w{3})\b/g)
 
 
 
@@ -15,21 +15,21 @@ const reg1 = ex1
 // Exercise 02
 // Using a regex pattern, remove all of the numbers from the ex2 string.
 
-const reg2 = ex2
+const reg2 = ex2.replace(/[\d]/g, '')
 
 
 
 // Exercise 03
 // Using a regex pattern, find the monetary value contained within the ex3 string.
 
-const reg3 = ex3
+const reg3 = ex3.match(/\$\d{1,3}\.\d{2}/g)
 
 
 
 // Exercise 04
 // Using a regex pattern, find the telephone number contained within the ex4 string.
 
-const reg4 = ex4
+const reg4 = ex4.match(/(\d{3,4}\s?){3}/g)
 
 
 
@@ -37,7 +37,7 @@ const reg4 = ex4
 // Exercise 05
 // Using a regex pattern, find the email address contained within the ex5 string.
 
-const reg5 = ex5
+const reg5 = ex5.match(/\S+@\S+\.\S{2,6}/g)
 
 console.log(reg1)
 console.log(reg2)
